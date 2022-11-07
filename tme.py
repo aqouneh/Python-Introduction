@@ -15,4 +15,4 @@ flines = f.readlines()
 linecount = len(flines) # len() returns number of elements in a list
 for l in flines:
     checkline()
-print linecount, wordcount
+print (linecount, wordcount)
